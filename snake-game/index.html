@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>贪吃蛇 - Dify 生成示例</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>贪吃蛇（Dify 生成示例）</h1>
+
+    <div class="controls">
+      <button id="startBtn">开始 / 重置</button>
+      <button id="pauseBtn">暂停</button>
+      <label for="speedRange">速度</label>
+      <input id="speedRange" type="range" min="50" max="300" step="10" value="120" />
+      <span id="score">得分: 0</span>
+    </div>
+
+    <div class="canvas-wrap">
+      <canvas id="gameCanvas" width="400" height="400" aria-label="贪吃蛇游戏画布"></canvas>
+    </div>
+
+    <p class="hint">使用方向键或 WASD 控制蛇移动。不可直接反向转弯。</p>
+  </div>
+
+  <script src="snake.js"></script>
+</body>
+</html>
