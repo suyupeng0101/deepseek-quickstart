@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Trip Planner",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/app.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Run mock 12306 MCP",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/mock_12306_mcp.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Run mock CN Weather MCP",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/mock_cn_weather.py",
+      "console": "integratedTerminal"
+    }
+  ]
+}

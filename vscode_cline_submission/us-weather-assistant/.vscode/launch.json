@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Weather App",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/weather.py",
+      "console": "integratedTerminal",
+      "args": []
+    },
+    {
+      "name": "Run Mock US MCP",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/mock_us_mcp.py",
+      "console": "integratedTerminal",
+      "args": []
+    }
+  ]
+}

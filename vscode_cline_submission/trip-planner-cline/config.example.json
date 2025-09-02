@@ -1,0 +1,4 @@
+{
+  "MCP_12306_URL": "http://localhost:8080",
+  "MCP_CHINA_WEATHER_URL": "http://localhost:8091"
+}
